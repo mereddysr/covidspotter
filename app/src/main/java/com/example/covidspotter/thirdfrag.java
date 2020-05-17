@@ -203,21 +203,24 @@ getActivity().finish();
                         String g = dataSnapshot.child("gender").getValue().toString();
                         String c = dataSnapshot.child("city").getValue().toString();
                         String b = dataSnapshot.child("report").getValue().toString();
-                        String auth=dataSnapshot.child("adminstat").getValue().toString();
+                        try{}catch(Exception es){
+                                                    String auth=dataSnapshot.child("adminstat").getValue().toString();
 
-                        se_uname.setText(n);
-                        se_umob.setText(m);
-                        se_uemail.setText(e);
-                        se_ugender.setText(g);
-                        se_ucity.setText(c);
-                        se_ureport.setText(b);
-                        se_aver.setText(vern);
+                            
 if(auth.equals("1")){
     authref.setVisibility(View.VISIBLE);
 }else{
     authref.setVisibility(View.GONE);
 
 }
+                        }
+
+                        se_uname.setText(n);
+                        se_umob.setText(m);
+                        se_uemail.setText(e);
+                        se_ugender.setText(g);
+                        se_ucity.setText(c);
+                        se_aver.setText(vern);
                         //database status add
 
 
