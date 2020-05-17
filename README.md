@@ -14,3 +14,7 @@
 6.We give some authorization to change the Covid as Positive or Negative to a Certain person only, that changes will be made by through the Firebase
 
 7.We also provide Covid Resources to help People such as Covid Testing Labs, Free Food, Police Info, Govt.Helpline
+
+Sample Login Credentials
+Email:tejg@gmail.com
+Password:123456789
