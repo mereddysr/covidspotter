@@ -1,20 +1,14 @@
 # covidspotter
 
-1.This application is to locate the covid affected people nearby 20km radius from your current location 
-(Note: Distance can be changed as per requirement)
-
-2.We have disabled some API's
-
-3.In the update option  there you can a icon ,by clicking that you will see a button named FIND which is used to identify the other covid affected person nearby
-
-4.In Updates menu we provide the complete details of the RED GREEN and ORANGE Zones Through India with its State and City Name.
-
-5.We also provide the Current Covid Test details for each State accordingly
-
-6.We give some authorization to change the Covid as Positive or Negative to a Certain person only, that changes will be made by through the Firebase
-
-7.We also provide Covid Resources to help People such as Covid Testing Labs, Free Food, Police Info, Govt.Helpline
-
-Sample Login Credentials
+1.This application is to Provide information of Novel Coronavirus upto date and locate the covid affected people nearby by 20km radius from your current location who are having covid positive.
+2.In the Dashboard section, Total cases that are recovered,confirmed and death information is provide with precautions to take in day to day life.
+3.In Updates section,The information is categorized as zones(red,orange and green),Total Cases Tested Daily in india,Helpline Services and Covid Testing labs.
+4.Application uses the gps to find the positive cases around your location to avoid moving towards them or place.
+5.Sample Login Credentials to test the application.
 Email:tejg@gmail.com
 Password:123456789
+
+
+
+Data Source: https://www.covid19india.org/
+
