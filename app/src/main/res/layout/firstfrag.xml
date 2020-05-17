@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/background"
+    android:layout_height="match_parent">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+
+        >        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:orientation="vertical"
+            android:background="@drawable/cercleshape">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Covid 19 Cases Overview"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="5dp"
+                android:gravity="center"
+                android:textColor="#000"
+                android:textSize="15dp"></TextView>
+
+
+        </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                app:cardCornerRadius="20dp"
+android:layout_marginBottom="10dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:padding="10dp"
+
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Confirmed"
+                            android:textStyle="normal"
+                            android:fontFamily="monospace"
+
+                            android:layout_margin="10dp"
+                            android:textColor="#D10D0D"
+                            android:textSize="12dp">
+
+                        </TextView>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="0"
+                            android:textStyle="normal"
+android:id="@+id/case_conf"
+                            android:layout_margin="10dp"
+                            android:textColor="#D10D0D"
+                            android:textSize="12dp">
+
+                        </TextView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:text="Active"
+                            android:fontFamily="monospace"
+                            android:textColor="#80DEEA"
+                            android:textSize="12dp"
+                            android:textStyle="normal">
+
+                        </TextView>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="0"
+                            android:textStyle="normal"
+                            android:textColor="#80DEEA"
+                            android:id="@+id/case_act"
+
+                            android:layout_margin="10dp"
+                            android:textSize="12dp">
+
+                        </TextView>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Recovered"
+                            android:textStyle="normal"
+                            android:fontFamily="monospace"
+                            android:layout_margin="10dp"
+                            android:textColor="#5EB61E"
+                            android:textSize="12dp">
+
+                        </TextView>
+                        <TextView
+                            android:id="@+id/case_rec"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="0"
+                            android:textStyle="normal"
+                            android:textColor="#5EB61E"
+                            android:layout_margin="10dp"
+                            android:textSize="12dp">
+
+                        </TextView>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</LinearLayout>
+
+        <LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="10dp"
+    android:background="#DFDEFCE0"
+    android:padding="15dp"
+    android:fadingEdge="horizontal"
+    android:fadingEdgeLength="10dp"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#000"
+        android:layout_marginBottom="10dp"
+        android:text="Covid19 Symptoms"></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Most Common Symptoms"
+        android:fontFamily="monospace"
+        android:textSize="10dp"
+
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:textSize="10dp"
+
+        android:text="1.Fever\n2.Dry Cough\n3.Tiredness"
+        ></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="monospace"
+        android:textSize="10dp"
+
+        android:text="Less Common Symptoms"
+        ></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:textSize="10dp"
+
+        android:text="1.Aches and Pains\n2.Sore Throat\n3.Diarrhoea\n4.Headache"
+        ></TextView>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/ic_local">
+
+    </ImageView>
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Seek Immediate Medical Attention if you have Serious symptoms. Always call before visiting your doctor or health facility"
+        ></TextView>
+</LinearLayout>
+</LinearLayout>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            app:cardCornerRadius="10dp"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:scaleType="fitCenter"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/back3"
+                    >
+
+                </ImageView>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_margin="0dp"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="TAKE EVERYDAY PRECAUTIONS"
+                    android:textSize="20dp"
+                    android:gravity="center"
+                    android:layout_margin="10dp"
+                    android:layout_height="wrap_content"></TextView>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:scaleType="centerInside"
+                    android:background="@drawable/back1"
+android:layout_margin="10dp"
+                    android:layout_height="match_parent">
+
+                </ImageView>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>
+</RelativeLayout>

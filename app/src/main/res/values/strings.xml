@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Covid Spotter</string>
+    <string name="title_home">Home</string>
+    <string name="title_activity_maps">Map</string>
+    <string-array name="array_poitive">
+        <item> Yes   </item>
+        <item> No    </item>
+    </string-array>
+</resources>

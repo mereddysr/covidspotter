@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    android:padding="@dimen/activity_horizontal_margin">
+    <TextView
+        android:id="@+id/cstnam"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/cscat"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content"
+        android:textColor="#5d5d5d"
+        android:textStyle="bold" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:padding="5dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="State : "
+        android:textColor="#000"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:id="@+id/csstat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#292728"
+         />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:textColor="#000"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="City : "></TextView>
+
+        <TextView
+            android:id="@+id/cstci"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#292728"
+             />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:padding="5dp"
+
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:textColor="#292728"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:text="Contact : "></TextView>
+        <TextView
+            android:id="@+id/cstnum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#292728"
+
+             />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

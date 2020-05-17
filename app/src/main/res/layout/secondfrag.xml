@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:background="@color/background"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:fontFamily="monospace"
+                android:textSize="19dp"
+                android:textColor="#000"
+                android:text="Check Zone Status">
+
+            </TextView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:padding="5dp"
+                android:layout_height="wrap_content">
+                <android.support.v7.widget.CardView
+                    android:layout_width="100dp"
+                    app:cardCornerRadius="10dp"
+                    android:layout_margin="5dp"
+                    android:id="@+id/cs_sf_red"
+                    android:layout_height="80dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:background="#A3F00707">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:textColor="#FFF"
+                            android:fontFamily="monospace"
+                            android:gravity="center"
+                            android:text="Red\nZones">
+
+                        </TextView>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="100dp"
+                    app:cardCornerRadius="10dp"
+                    android:layout_margin="5dp"
+                    android:id="@+id/cs_sf_or"
+
+                    android:layout_height="80dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:background="#A3F03D07">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:textColor="#FFF"
+                            android:fontFamily="monospace"
+                            android:gravity="center"
+                            android:text="Orange\nZones">
+
+                        </TextView>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="100dp"
+                    app:cardCornerRadius="10dp"
+                    android:layout_margin="5dp"
+                    android:id="@+id/cs_sf_gre"
+                    android:layout_height="80dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:background="#7A68F007">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:textColor="#FFF"
+                            android:fontFamily="monospace"
+                            android:gravity="center"
+                            android:text="Green\nZones">
+
+                        </TextView>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                app:cardCornerRadius="6dp"
+                android:id="@+id/testbtn"
+                android:layout_height="80dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bac6"
+                    android:cropToPadding="true"
+                    android:scaleType="centerCrop"></ImageView>
+            </android.support.v7.widget.CardView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:fontFamily="monospace"
+                android:textSize="19dp"
+                android:textColor="#000"
+                android:text="Resources">
+
+            </TextView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:padding="5dp"
+                android:layout_height="wrap_content">
+                <android.support.v7.widget.CardView
+                    android:layout_width="150dp"
+                    app:cardCornerRadius="10dp"
+                    android:layout_margin="5dp"
+                    android:id="@+id/cs_sf_lab"
+                    android:layout_height="80dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:background="@drawable/resback">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:textColor="#FFF"
+                            android:fontFamily="monospace"
+                            android:gravity="center"
+                            android:text="Covid19\nTesting\nLabs">
+
+                        </TextView>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="150dp"
+                    app:cardCornerRadius="10dp"
+                    android:layout_margin="5dp"
+                    android:id="@+id/cs_sf_food"
+
+                    android:layout_height="80dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:background="@drawable/resback2">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:textColor="#FFF"
+                            android:fontFamily="monospace"
+                            android:gravity="center"
+                            android:text="Free\nFood">
+
+                        </TextView>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:padding="5dp"
+                android:layout_height="wrap_content">
+                <android.support.v7.widget.CardView
+                    android:layout_width="150dp"
+                    app:cardCornerRadius="10dp"
+                    android:layout_margin="5dp"
+                    android:id="@+id/cs_sf_police"
+                    android:layout_height="80dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:background="@drawable/resback3">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:textColor="#FFF"
+                            android:fontFamily="monospace"
+                            android:gravity="center"
+                            android:text="Police\nInformation">
+
+                        </TextView>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="150dp"
+                    app:cardCornerRadius="10dp"
+                    android:layout_margin="5dp"
+                    android:id="@+id/cs_sf_helpline"
+
+                    android:layout_height="80dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:background="@drawable/resback5">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:textColor="#FFF"
+                            android:fontFamily="monospace"
+                            android:gravity="center"
+                            android:text="Government\nHelpline">
+
+                        </TextView>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+
+            </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:padding="5dp"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="100dp"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="5dp"
+        android:id="@+id/cs_sf_hos"
+        android:layout_height="80dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:background="@drawable/resback4">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="#FFF"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:text="Hospitals\nand\nCenters">
+
+            </TextView>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>
+        </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="60dp"
+        app:fabSize="normal"
+        android:elevation="10dp"
+        android:id="@+id/fab"
+        app:srcCompat="@drawable/ic_my_location"></android.support.design.widget.FloatingActionButton>
+
+</android.support.design.widget.CoordinatorLayout>

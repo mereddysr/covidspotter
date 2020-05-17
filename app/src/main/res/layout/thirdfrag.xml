@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="100dp"
+            android:layout_height="match_parent">
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:id="@+id/cs_tf_sh"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+app:cardCornerRadius="20dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"
+                android:layout_height="50dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:background="#BBBABA"
+
+android:orientation="horizontal"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/ic_person_pin"
+                        android:scaleType="centerCrop">
+
+                    </ImageView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:textColor="#FFF"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textSize="17dp"
+                        android:text="Modify Patient Information"></TextView>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp">
+
+        <LinearLayout
+            android:layout_width="3dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:background="@color/colorPrimary"
+            android:orientation="vertical"></LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:padding="10dp"
+            android:text="Your Profile"
+            android:textSize="20dp">
+
+        </TextView>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="6dp"
+
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="10dp"
+                    android:text="Name      : "
+                    android:textColor="#000"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/sett_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="name"
+                    android:textColor="#000" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="6dp"
+
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="10dp"
+                    android:text="Mobile    : "
+                    android:textColor="#000"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/sett_mob"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="mobile"
+                    android:textColor="#000" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="6dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="10dp"
+                    android:text="Gender   : "
+                    android:textColor="#000"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/sett_gen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="gender"
+                    android:textColor="#000" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="6dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="10dp"
+                    android:text="City         : "
+                    android:textColor="#000"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/sett_city"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="city"
+                    android:textColor="#000" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="6dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="10dp"
+                    android:text="Email      : "
+                    android:textColor="#000"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/sett_email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Email"
+                    android:textColor="#000" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="6dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="10dp"
+                    android:text="Having Covid  : "
+                    android:textColor="#000"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/sett_bgrp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="yes/no"
+                    android:textColor="#000" />
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="1dp"
+        android:id="@+id/ch_p"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:padding="5dp"
+        android:layout_marginRight="15dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="7dp"
+            android:layout_height="wrap_content"
+            android:textColor="#1C7FCE"
+            android:textStyle="bold"
+            android:text="Change Password"></TextView>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginRight="15dp">
+
+        <LinearLayout
+            android:layout_width="4dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:background="#8c3d8f"
+            android:orientation="vertical"></LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:padding="10dp"
+            android:text="About"
+            android:textSize="20dp">
+
+        </TextView>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="6dp"
+
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="10dp"
+                    android:text="Application Name      : "
+                    android:textColor="#000"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/sett_appname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Covid Spotter"
+                    android:textColor="#000" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="6dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="10dp"
+                    android:text="Version    : "
+                    android:textColor="#000"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/sett_ver"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Version"
+                    android:textColor="#000" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:id="@+id/sett_log"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="3dp"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:background="#E8F5E9"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="33dp"
+                android:layout_gravity="center"
+                android:background="@drawable/logout_btn"
+                >
+
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:paddingLeft="10dp"
+                android:gravity="center"
+                android:paddingRight="10dp"
+                android:text="Logout"
+                android:textStyle="bold"
+                android:textColor="#070707"></TextView>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
+
+</LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>
