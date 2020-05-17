@@ -1,4 +1,4 @@
-# covidspotter
+# CovidSpotter
 
 1.This application is to Provide information of Novel Coronavirus upto date and locate the covid affected people nearby by 20km radius from your current location who are having covid positive.
 2.In the Dashboard section, Total cases that are recovered,confirmed and death information is provide with precautions to take in day to day life.
